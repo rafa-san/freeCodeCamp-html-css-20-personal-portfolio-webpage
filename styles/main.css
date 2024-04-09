@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#welcome-section {
+  background-color: coral;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+iframe {
+  display: block;
+  height: 300px;
+  margin: auto;
+  width: 95%;
+}
