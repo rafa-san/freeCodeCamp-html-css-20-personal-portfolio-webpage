@@ -1,14 +1,76 @@
 @charset "utf-8";
 
+/* WELCOME SECTION */
 #welcome-section {
-  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
   height: 100vh;
-  margin-top: 100px;
 }
 
+.welcome-header,
+#welcome-section p {
+  text-align: center;
+  padding: 16px 8px;
+}
+
+
+/* PROJECTS SECTION */
+.projects-section {
+  /* background-color: lightcyan; */
+}
+
+.projects-header {
+  padding: 16px 8px;
+}
+
+
+/* IFRAME */
 iframe {
   display: block;
-  height: 300px;
+  height: 260px;
+  margin: 16px auto;
+  width: 90%;
+}
+
+
+/* PROJECTS SECTION */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+
+.project {
+  border: 1px solid green;
+  margin: 8px auto;
+  padding: 24px 8px;
+  width: 80%;
+}
+
+.project-title {
+  padding: 8px;
+}
+
+.code {
+  color: white;
+  transition: 0.3s ease-out;
+}
+
+.project:hover .code {
+  color: blue;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
   margin: auto;
-  width: 95%;
+  max-width: 500px;
+  padding: 8px;
+}
+
+button a {
+  font-family: "Roboto Mono", monospace;
 }
