@@ -1,7 +1,29 @@
 @charset "utf-8";
 
 footer {
-  border: 1px solid red;
-  margin-top: 24px;
+  background-color: var(--cor1);
   padding: 24px 8px;
+  width: 100%;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+}
+
+.contato {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+i {
+  color: #fff;
+  text-shadow: 1px 1px 1px #1f1f1f;
+  transition: 0.3s ease-out;
+}
+
+i:hover {
+  transform: translateY(6px); 
 }
