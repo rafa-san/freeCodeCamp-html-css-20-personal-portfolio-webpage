@@ -6,7 +6,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: gray;
+  /* background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); */
+  background-color: var(--cor3);
+  color: #fff;
   height: 140px;
   padding: 8px;
   width: 100%;
@@ -17,4 +19,14 @@
   justify-content: space-around;
   margin: 16px auto 8px;
   width: 60%;
+}
+
+#navbar a {
+  color: #fff;
+  padding: 8px;
+  transition: 0.3s ease-out;
+}
+
+#navbar a:hover {
+  background-color: var(--cor1);
 }
