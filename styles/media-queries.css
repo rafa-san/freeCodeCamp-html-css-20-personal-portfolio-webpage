@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@media (min-width: 992px) {
+  iframe {
+    height: 400px;
+  }
+  
+  .project {
+    width: 40%;
+  }
+}
