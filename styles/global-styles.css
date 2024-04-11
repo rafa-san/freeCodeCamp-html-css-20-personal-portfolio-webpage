@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+:root {
+  --cor1: #A4243B;
+  --cor2: #CEE5F2;
+  --cor3: #253D5B;
+  --cor4: #F6FEAA;
+  --cor5: #2C8C99;
+}
+
 * {
   box-sizing: border-box;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
