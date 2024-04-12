@@ -1,11 +1,29 @@
 @charset "utf-8";
 
 @media (min-width: 992px) {
+  /* NAVBAR */
+  #navbar ul {
+    max-width: 30%;
+  }
+
+
+  /* MAIN */
   iframe {
     height: 400px;
   }
   
   .project {
     width: 40%;
+  }
+
+  
+  /* iframe.html */
+  .imagem {
+    height: 70%;
+    max-width: 48%;
+  }
+
+  .texto {
+    max-width: 48%;
   }
 }
