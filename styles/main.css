@@ -5,16 +5,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--cor2);
-  background-image: url('../images/profile-first-repo-dark.svg');
+  background-image: url('../images/wallpaper.jpg');
   background-position: bottom center;
   background-repeat: no-repeat;
-  /* background-image: linear-gradient(to bottom, var(--cor2), var(--cor4)); */
   height: 100vh;
 }
 
 .welcome-header {
   color: var(--cor3);
+  font-size: 2.2em;
   font-weight: bold;
   text-align: center;
   padding: 16px;
@@ -22,7 +21,7 @@
 
 #welcome-section p {
   color: var(--cor3);
-  font-weight: bold;
+  font-size: 1.2em;
   text-align: center;
   padding: 16px;
 }
@@ -86,10 +85,16 @@ iframe {
 }
 
 button {
-  background-color: var(--cor5);
-  border: none;
+  background-color: var(--cor3);
+  border: 3px solid var(--cor3);
   border-radius: 8px;
+  cursor: pointer;
   padding: 8px;
+  transition: 0.2s ease-out;
+}
+
+button:hover {
+  border: 3px solid #fff;
 }
 
 button a {
