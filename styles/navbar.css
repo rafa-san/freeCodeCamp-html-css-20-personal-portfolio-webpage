@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); */
   background-color: var(--cor3);
   color: #fff;
   height: 140px;
@@ -14,15 +13,20 @@
   width: 100%;
 }
 
+.navbar-header {
+  font-size: 2.0em;
+}
+
 #navbar ul {
   display: flex;
   justify-content: space-around;
   margin: 16px auto 8px;
-  width: 60%;
+  width: 50%;
 }
 
 #navbar a {
   color: #fff;
+  font-size: 1.1em;
   padding: 8px;
   transition: 0.3s ease-out;
 }
