@@ -2,12 +2,33 @@
 
 body {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  height: 100vh;
+}
+
+.imagem {
+  background-image: url('../images/github.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50%;
+  width: 100%;
+}
+
+.texto {
+  display: flex;
   flex-direction: column;
-  gap: 40px;
-  justify-content: space-between;
+  justify-content: space-around;
+  height: 46%;
+  width: 100%;
 }
 
 p {
   color: var(--cor3);
+  font-size: 1.1em;
+  padding: 2px 6px;
   text-align: center;
 }
