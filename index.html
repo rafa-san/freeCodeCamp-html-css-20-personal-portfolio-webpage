@@ -1,120 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles/global-styles.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/media-queries.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Portfolio Webpage</title>
-  <link rel="stylesheet" href="styles/global-styles.css" />
-  <link rel="stylesheet" href="styles/navbar.css" />
-  <link rel="stylesheet" href="styles/main.css" />
-  <link rel="stylesheet" href="styles/footer.css" />
-  <link rel="stylesheet" href="styles/media-queries.css" />
-</head>
+  <body>
+    <nav id="navbar">
+      <h1 class="navbar-header">Portfólio freeCodeCamp</h1>
+      <ul>
+        <li><a href="#iframe">Projetos</a></li>
+        <li><a href="#footer">Contato</a></li>
+      </ul>
+    </nav>
 
-<body>
-  <nav id="navbar">
-    <h1 class="navbar-header">Portfólio freeCodeCamp</h1>
-    <ul>
-      <li><a href="#iframe">Projetos</a></li>
-      <li><a href="#footer">Contato</a></li>
-    </ul>
-  </nav>
+    <main>
+      <section id="welcome-section">
+        <h2 class="welcome-header">Olá, meu nome é Rafael Santana!</h2>
+        <p>Esse é o meu portfólio com os <em>Certification Project</em> do <strong>freeCodeCamp</strong></p>
+      </section>
 
-  <main>
-    <section id="welcome-section">
-      <h2 class="welcome-header">Olá, meu nome é Rafael Santana!</h2>
-      <p>Esse é o meu portfólio com os <em>Certification Project</em> do <strong>freeCodeCamp</strong></p>
-    </section>
+      <section class="projects-section">
+        <h2 class="projects-header">Certification Project</h2>
 
-    <section class="projects-section">
-      <h2 class="projects-header">Certification Project</h2>
+        <iframe id="iframe" name="iframe-projetos" src="iframe.html"></iframe>
 
-      <iframe id="iframe" name="iframe-projetos" src="iframe.html"></iframe>
-
-      <div id="projects">
-        <div class="project">
-          <h3 class="project-title">
-            <span class="code">&lt;</span>
-            Certification Project #1: Survey Form
-            <span class="code">&#47;&gt;</span>
-          </h3>
-          <div class="buttons">
-            <button>
-              <a href="https://rafa-san.github.io/freeCodeCamp-html-css-05-survey-form/" target="iframe-projetos">visualizar projeto</a>
-            </button>
-            <button>
-              <a href="https://rafa-san.github.io/freeCodeCamp-html-css-05-survey-form/" target="_blank" class="project-tile">abrir em nova janela</a>
-            </button>
+        <div id="projects">
+          <div class="project">
+            <h3 class="project-title">
+              <span class="code">&lt;</span>
+              Certification Project #1: Survey Form
+              <span class="code">&#47;&gt;</span>
+            </h3>
+            <div class="buttons">
+              <button>
+                <a href="https://rafa-san.github.io/freeCodeCamp-html-css-05-survey-form/" target="iframe-projetos">visualizar projeto</a>
+              </button>
+              <button>
+                <a href="https://rafa-san.github.io/freeCodeCamp-html-css-05-survey-form/" target="_blank" class="project-tile">abrir em nova janela</a>
+              </button>
+            </div>
           </div>
-        </div>
 
-        <div class="project">
-          <h3 class="project-title">
-            <span class="code">&lt;</span>
-            Certification Project #2: Tribute Page
-            <span class="code">&#47;&gt;</span>
-          </h3>
-          <div class="buttons">
-            <button>
-              <a href="https://rafa-san.github.io/freeCodeCamp-html-css-10-tribute-page/" target="iframe-projetos">visualizar projeto</a>
-            </button>
-            <button>
-              <a href="https://rafa-san.github.io/freeCodeCamp-html-css-10-tribute-page/" target="_blank" class="project-tile">abrir em nova janela</a>
-            </button>
+          <div class="project">
+            <h3 class="project-title">
+              <span class="code">&lt;</span>
+              Certification Project #2: Tribute Page
+              <span class="code">&#47;&gt;</span>
+            </h3>
+            <div class="buttons">
+              <button>
+                <a href="https://rafa-san.github.io/freeCodeCamp-html-css-10-tribute-page/" target="iframe-projetos">visualizar projeto</a>
+              </button>
+              <button>
+                <a href="https://rafa-san.github.io/freeCodeCamp-html-css-10-tribute-page/" target="_blank" class="project-tile">abrir em nova janela</a>
+              </button>
+            </div>
           </div>
-        </div>
 
-        <div class="project">
-          <h3 class="project-title">
-            <span class="code">&lt;</span>
-            Certification Project #3: Documentation Page
-            <span class="code">&#47;&gt;</span>
-          </h3>
-          <div class="buttons">
-            <button>
-              <a href="https://rafa-san.github.io/freeCodeCamp-html-css-14-technical-documentation-page/" target="iframe-projetos">visualizar projeto</a>
-            </button>
-            <button>
-              <a href="https://rafa-san.github.io/freeCodeCamp-html-css-14-technical-documentation-page/" target="_blank" class="project-tile">abrir em nova janela</a>
-            </button>
+          <div class="project">
+            <h3 class="project-title">
+              <span class="code">&lt;</span>
+              Certification Project #3: Documentation Page
+              <span class="code">&#47;&gt;</span>
+            </h3>
+            <div class="buttons">
+              <button>
+                <a href="https://rafa-san.github.io/freeCodeCamp-html-css-14-technical-documentation-page/" target="iframe-projetos">visualizar projeto</a>
+              </button>
+              <button>
+                <a href="https://rafa-san.github.io/freeCodeCamp-html-css-14-technical-documentation-page/" target="_blank" class="project-tile">abrir em nova janela</a>
+              </button>
+            </div>
           </div>
-        </div>
 
-        <div class="project">
-          <h3 class="project-title">
-            <span class="code">&lt;</span>
-            Certification Project #4: Landing Page
-            <span class="code">&#47;&gt;</span>
-          </h3>
-          <div class="buttons">
-            <button>
-              <a href="https://rafa-san.github.io/freeCodeCamp-html-css-17-landing-page/" target="iframe-projetos">visualizar projeto</a>
-            </button>
-            <button>
-              <a href="https://rafa-san.github.io/freeCodeCamp-html-css-17-landing-page/" target="_blank" class="project-tile">abrir em nova janela</a>
-            </button>
+          <div class="project">
+            <h3 class="project-title">
+              <span class="code">&lt;</span>
+              Certification Project #4: Landing Page
+              <span class="code">&#47;&gt;</span>
+            </h3>
+            <div class="buttons">
+              <button>
+                <a href="https://rafa-san.github.io/freeCodeCamp-html-css-17-landing-page/" target="iframe-projetos">visualizar projeto</a>
+              </button>
+              <button>
+                <a href="https://rafa-san.github.io/freeCodeCamp-html-css-17-landing-page/" target="_blank" class="project-tile">abrir em nova janela</a>
+              </button>
+            </div>
           </div>
+
         </div>
+      </section>
+    </main>
 
-      </div>
-    </section>
-  </main>
+    <footer id="footer">
+      <p>Desenvolvido por Rafa Santana</p>
 
-  <footer id="footer">
-    <p>Desenvolvido por Rafa Santana</p>
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> GitHub</i>
+        </a>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> LinkedIn</i>
+        </a>
+      </section>
+    </footer>
 
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
-        <i class="fa brands fa-github"> GitHub</i>
-      </a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"> LinkedIn</i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  </body>
 </html>
