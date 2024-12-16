@@ -3,16 +3,16 @@
 # Responsive Web Design Certification | Certification Project #05
 
 ## 1️⃣ Objetivo
-Desenvolver uma página de portfólio que reúna todos ou alguns projetos desenvolvidos ao longo da sua jornada como desenvolvedor.
+Desenvolver uma página de portfólio que reúna todos ou apenas alguns projetos desenvolvidos ao longo da sua jornada como desenvolvedor.
 
 ## 2️⃣ Descrição
 Este é o quinto e último desafio no formato **Certification Project** da trilha **Responsive Web Design Certification**. Ao concluí-lo, o certificado de conclusão ficará disponível para download ou compartilhar no LinkedIn, por exemplo.
 
-Os **Certification Projects** têm como objetivo consolidar os conhecimentos adquiridos durante os cursos anteriores. Eles exigem:
+Os **Certification Project** exigem que o desenvolvimento seja realizado de forma independente, sem mentoria direta.
 
-- Desenvolvimento independente, sem mentoria direta.
-- Cumprimento de critérios específicos relacionados à estrutura do HTML.
-- Liberdade criativa total no design (CSS) para que o projeto reflita o estilo pessoal do desenvolvedor.
+Para que o projeto seja aprovado, é necessário cumprir critérios específicos estabelecidos pela plataforma, principalmente relacionados à estrutura HTML. No entanto, há total liberdade para criar o design (CSS), permitindo dar um toque pessoal à página.
+
+O principal objetivo desse formato é consolidar os conhecimentos adquiridos ao longo dos cursos anteriores, proporcionando uma experiência prática bastante significativa.
 
 **Aviso Importante:**
 Seguindo as diretrizes do **freeCodeCamp**, este projeto foi desenvolvido de forma honesta e independente, sem plágio ou cópia direta do exemplo fornecido. Todo o processo envolveu pesquisas, tentativas e erros, valorizando meu esforço pessoal.
@@ -42,7 +42,7 @@ Este projeto final foi uma excelente oportunidade para revisitar e aplicar todos
 </div>
 
 ## 5️⃣ Créditos
-Agradeço ao freeCodeCamp por oferecer cursos gratuitos de altíssima qualidade, que não apenas ampliaram meus conhecimentos, mas também contribuíram muito para a construção do meu portfólio.
+Agradeço ao **freeCodeCamp** por oferecer cursos gratuitos de altíssima qualidade, que não apenas ampliaram meus conhecimentos, mas também contribuíram muito para a construção do meu portfólio.
 - <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp 🔗</a>
 
 Tutoriais consultados: 
